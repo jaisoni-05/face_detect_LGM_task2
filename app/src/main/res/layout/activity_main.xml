@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="cursive"
+        android:paddingTop="20dp"
+        android:paddingRight="2dp"
+        android:paddingBottom="5dp"
+        android:text="FaceDetector"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:paddingLeft="10dp"
+        android:paddingBottom="15dp"
+        android:text="@string/scan_up"
+        android:textColor="@color/main_color"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@id/margin"
+        app:layout_constraintLeft_toRightOf="@id/title" />
+
+    <View
+        android:id="@+id/margin"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#DFDFDF"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="202dp" />
+
+    <Button
+        android:id="@+id/camera_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:padding="16dp"
+        android:text="Camera Scan"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guideline1" />
+
+    <Button
+        android:id="@+id/gallery_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/black"
+        android:padding="16dp"
+        android:text="Gallery Scan"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/camera_button" />
+
+    <LinearLayout
+        android:id="@+id/linear_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="200dp"
+        android:orientation="horizontal"
+        android:paddingVertical="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gallery_button">
+
+        <ImageButton
+            android:id="@+id/about_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/background"
+            android:onClick="about"
+            android:paddingVertical="10dp"
+            android:src="@drawable/about" />
+
+        <Button
+            android:id="@+id/about_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/background"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:onClick="about"
+            android:paddingHorizontal="0dp"
+            android:text="About Face Detector"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

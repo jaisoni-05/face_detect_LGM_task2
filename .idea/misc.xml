@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/LGMVIP--Android-Task2-face detector/app/src/main/res/layout/activity_about.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/LGMVIP--Android-Task2-face detector/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/LGMVIP--Android-Task2-face detector/app/src/main/res/layout/dialog_box.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/LGMVIP--Android-Task2-master/app/src/main/res/layout/activity_about.xml" value="0.1796875" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/LGMVIP--Android-Task2-master/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/LEGION/Desktop/BioFace-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2555" />
+        <entry key="..\:/Users/LEGION/Desktop/BioFace-master/app/src/main/res/drawable/about.xml" value="0.2555" />
+        <entry key="..\:/Users/LEGION/Desktop/BioFace-master/app/src/main/res/drawable/close.xml" value="0.2555" />
+        <entry key="..\:/Users/LEGION/Desktop/BioFace-master/app/src/main/res/drawable/developed.xml" value="0.2555" />
+        <entry key="..\:/Users/LEGION/Desktop/BioFace-master/app/src/main/res/drawable/home.xml" value="0.2555" />
+        <entry key="..\:/Users/LEGION/Desktop/BioFace-master/app/src/main/res/layout/activity_about.xml" value="0.25" />
+        <entry key="..\:/Users/LEGION/Desktop/BioFace-master/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/LEGION/Desktop/BioFace-master/app/src/main/res/layout/dialog_box.xml" value="0.25" />
+        <entry key="..\:/Users/Mahesh Rathi/AndroidStudioProjects/BioFace/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2546875" />
+        <entry key="..\:/Users/Mahesh Rathi/AndroidStudioProjects/BioFace/app/src/main/res/layout/about_bio_face.xml" value="0.259375" />
+        <entry key="..\:/Users/Mahesh Rathi/AndroidStudioProjects/BioFace/app/src/main/res/layout/activity_about.xml" value="0.264" />
+        <entry key="..\:/Users/Mahesh Rathi/AndroidStudioProjects/BioFace/app/src/main/res/layout/activity_main.xml" value="0.2453125" />
+        <entry key="..\:/Users/Mahesh Rathi/AndroidStudioProjects/BioFace/app/src/main/res/layout/dialog_box.xml" value="0.264" />
+        <entry key="..\:/Users/Mahesh Rathi/AndroidStudioProjects/BioFace/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2598958333333333" />
+        <entry key="..\:/Users/Mahesh Rathi/AndroidStudioProjects/BioFace/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2755208333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
